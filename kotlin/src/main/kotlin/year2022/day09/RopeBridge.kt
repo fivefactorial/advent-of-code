@@ -1,8 +1,8 @@
 package year2022.day09
 
 import commons.Day
+import commons.Point
 import commons.group
-import java.awt.Point
 
 fun main() = println(RopeBridge())
 
