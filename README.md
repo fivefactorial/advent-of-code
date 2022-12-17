@@ -4,6 +4,8 @@ This is my solutions for the Advent of Code exercise.
 
 
 ## Solutions
+My kotlin solutions uses some help methods for common functionality.
+Those can be found [here](./kotlin/src/main/kotlin/commons).
 
 ### 2022
 |                                                | Solutions                              |
@@ -14,8 +16,8 @@ This is my solutions for the Advent of Code exercise.
 | [day 4](https://adventofcode.com/2022/day/4)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day04) |
 | [day 5](https://adventofcode.com/2022/day/5)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day05) |
 | [day 6](https://adventofcode.com/2022/day/6)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day06) |
-| [day 7](https://adventofcode.com/2022/day/7)   | |
-| [day 8](https://adventofcode.com/2022/day/8)   | |
+| [day 7](https://adventofcode.com/2022/day/7)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day07) |
+| [day 8](https://adventofcode.com/2022/day/8)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day08) |
 | [day 9](https://adventofcode.com/2022/day/9)   | |
 | [day 10](https://adventofcode.com/2022/day/10) | |
 | [day 11](https://adventofcode.com/2022/day/11) | |
