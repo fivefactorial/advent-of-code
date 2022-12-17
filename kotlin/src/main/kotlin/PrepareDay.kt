@@ -8,12 +8,8 @@ fun main() {
     val day = input("Day", Calendar.getInstance().get(Calendar.DAY_OF_MONTH).toString())?.toInt()
 
     val src = File("src/main/kotlin")
-
-    val yearFolder = File(src, "year$year")
-    if (!yearFolder.exists()) yearFolder.mkdir()
-
-    val dayFolder = File(yearFolder, String.format("day%02d", day))
-    if (!dayFolder.exists()) dayFolder.mkdir()
+    val yearFolder = File(src, "year$year").apply { if (!exists()) mkdir() }
+    val dayFolder = File(yearFolder, String.format("day%02d", day)).apply { if (!exists()) mkdir() }
 
     val dayName = String.format("Day%02d", day)
     val dayFile = File(dayFolder, "$dayName.kt")
@@ -29,8 +25,8 @@ import commons.Day
 
 fun main() = println($dayName())
 
-class $dayName : Day() {
-}      
+class $dayName : Day(false) {
+}
     """.trimIndent()
 
     dayFile.writeText(fileContent)
