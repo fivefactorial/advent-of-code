@@ -19,8 +19,8 @@ Those can be found [here](./kotlin/src/main/kotlin/commons).
 | [day 7](https://adventofcode.com/2022/day/7)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day07) |
 | [day 8](https://adventofcode.com/2022/day/8)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day08) |
 | [day 9](https://adventofcode.com/2022/day/9)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day09) |
-| [day 10](https://adventofcode.com/2022/day/10) | |
-| [day 11](https://adventofcode.com/2022/day/11) | |
+| [day 10](https://adventofcode.com/2022/day/10) | [Kotlin](./kotlin/src/main/kotlin/year2022/day10) |
+| [day 11](https://adventofcode.com/2022/day/11) | [Kotlin](./kotlin/src/main/kotlin/year2022/day11) |
 | [day 12](https://adventofcode.com/2022/day/12) | |
 | [day 13](https://adventofcode.com/2022/day/13) | |
 | [day 14](https://adventofcode.com/2022/day/14) | |
@@ -32,3 +32,6 @@ Those can be found [here](./kotlin/src/main/kotlin/commons).
 | [day 20](https://adventofcode.com/2022/day/20) | |
 | [day 21](https://adventofcode.com/2022/day/21) | |
 | [day 22](https://adventofcode.com/2022/day/22) | |
+| [day 23](https://adventofcode.com/2022/day/23) | |
+| [day 24](https://adventofcode.com/2022/day/24) | |
+| [day 25](https://adventofcode.com/2022/day/25) | |
