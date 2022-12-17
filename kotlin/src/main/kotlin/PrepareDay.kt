@@ -2,8 +2,6 @@ import java.io.File
 import java.util.*
 
 fun main() {
-
-
     val year = input("Year", Calendar.getInstance().get(Calendar.YEAR).toString())?.toInt()
     val day = input("Day", Calendar.getInstance().get(Calendar.DAY_OF_MONTH).toString())?.toInt()
 
@@ -39,7 +37,7 @@ private fun input(question: String, default: String? = null): String? {
     default?.run {
         print(" ($default)")
     }
-    print(":")
+    print(": ")
     Scanner(System.`in`).nextLine().apply {
         return if (isEmpty()) default else this
     }
