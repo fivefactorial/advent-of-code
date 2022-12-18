@@ -11,7 +11,7 @@ Those can be found [here](./kotlin/src/main/kotlin/commons).
 |                                                | Solutions                              |
 |:-----------------------------------------------|:--------------------------------------------------|
 | [day 1](https://adventofcode.com/2022/day/1)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day01), [Excel](./excel/2022/day01) |
-| [day 2](https://adventofcode.com/2022/day/2)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day02) |
+| [day 2](https://adventofcode.com/2022/day/2)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day02), [Excel](./excel/2022/day02) |
 | [day 3](https://adventofcode.com/2022/day/3)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day03) |
 | [day 4](https://adventofcode.com/2022/day/4)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day04) |
 | [day 5](https://adventofcode.com/2022/day/5)   | [Kotlin](./kotlin/src/main/kotlin/year2022/day05) |

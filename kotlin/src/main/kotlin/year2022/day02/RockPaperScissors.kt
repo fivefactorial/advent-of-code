@@ -2,9 +2,9 @@ package year2022.day02
 
 import commons.Day
 
-fun main() = println(RockPaperScisors())
+fun main() = println(RockPaperScissors())
 
-class RockPaperScisors : Day(true) {
+class RockPaperScissors : Day(true) {
 
     private val letters = content.map { row -> Pair(row[0] - 'A', row[2] - 'X') }
 
