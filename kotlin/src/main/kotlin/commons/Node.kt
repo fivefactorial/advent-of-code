@@ -1,6 +1,8 @@
 package commons
 
-class Node<T>(value: T) {
+class Node<T>(val value: T) {
 
     val neighbours = mutableListOf<Node<T>>()
+
+    override fun toString() = "node($value)"
 }
