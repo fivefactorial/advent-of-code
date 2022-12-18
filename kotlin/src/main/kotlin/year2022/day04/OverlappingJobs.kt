@@ -5,10 +5,7 @@ import commons.Day
 fun main() = println(OverlappingJobs())
 
 class OverlappingJobs : Day(true) {
-
-    private var yes: Int = 1
-    private var no: Int = 0
-
+    
     override fun a() = content.sumOf { row ->
         val (aa, bb) = row.parse()
         val inter = aa.intersect(bb).toSet()

@@ -4,6 +4,9 @@ import java.io.File
 
 abstract class Day(private val realData: Boolean) {
 
+    protected val yes: Int = 1
+    protected val no: Int = 0
+
     private val year: String
     private val day: String
 

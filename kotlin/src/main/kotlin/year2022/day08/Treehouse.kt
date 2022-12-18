@@ -6,9 +6,6 @@ fun main() = println(Treehouse())
 
 class Treehouse : Day(true) {
 
-    private var yes: Int = 1
-    private var no: Int = 0
-
     override fun a(): Any {
         val trees = content.map { row -> row.toList().map { "$it".toInt() } }
         val size = content.first().length
