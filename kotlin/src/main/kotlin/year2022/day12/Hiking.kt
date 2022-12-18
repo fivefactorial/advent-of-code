@@ -4,9 +4,9 @@ import commons.Day
 import commons.Point
 import java.util.*
 
-fun main() = println(Day12v2())
+fun main() = println(Hiking())
 
-class Day12v2 : Day(true) {
+class Hiking : Day(true) {
 
     override fun a(): Any {
         val (nodes, start, end) = content.parse()
