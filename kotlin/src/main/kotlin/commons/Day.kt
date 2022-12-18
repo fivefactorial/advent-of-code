@@ -2,7 +2,7 @@ package commons
 
 import java.io.File
 
-abstract class Day(private val realData: Boolean) {
+abstract class Day(val realData: Boolean) {
 
     protected val yes: Int = 1
     protected val no: Int = 0

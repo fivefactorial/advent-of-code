@@ -24,7 +24,7 @@ Those can be found [here](./kotlin/src/main/kotlin/commons).
 | [day 12](https://adventofcode.com/2022/day/12) | [Kotlin](./kotlin/src/main/kotlin/year2022/day12) |
 | [day 13](https://adventofcode.com/2022/day/13) | [Kotlin](./kotlin/src/main/kotlin/year2022/day13) |
 | [day 14](https://adventofcode.com/2022/day/14) | [Kotlin](./kotlin/src/main/kotlin/year2022/day14) |
-| [day 15](https://adventofcode.com/2022/day/15) | |
+| [day 15](https://adventofcode.com/2022/day/15) | [Kotlin](./kotlin/src/main/kotlin/year2022/day15) |
 | [day 16](https://adventofcode.com/2022/day/16) | |
 | [day 17](https://adventofcode.com/2022/day/17) | |
 | [day 18](https://adventofcode.com/2022/day/18) | [Kotlin](./kotlin/src/main/kotlin/year2022/day18) |
