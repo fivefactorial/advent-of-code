@@ -2,9 +2,9 @@ package year2022.day16
 
 import commons.Day
 
-fun main() = println(Day16(true))
+fun main() = println(Valves(true))
 
-class Day16(realData: Boolean) : Day(realData) {
+class Valves(realData: Boolean) : Day(realData) {
 
     override fun a() = content.parse().solve(1, 30)
     override fun b() = content.parse().solve(2, 26)
