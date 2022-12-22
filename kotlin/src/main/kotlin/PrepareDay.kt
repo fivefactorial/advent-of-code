@@ -21,9 +21,22 @@ package ${yearFolder.name}.${dayFolder.name}
 
 import commons.Day
 
-fun main() = println($dayName())
+fun main() = println($dayName(false))
 
-class $dayName : Day(false) {
+class $dayName(realData: Boolean) : Day(realData) {
+
+    override fun a(): Any {
+        val data = content.parse()
+
+        println(data)
+
+        return -1
+    }
+
+    private fun List<String>.parse() {
+
+    }
+
 }
     """.trimIndent()
 
