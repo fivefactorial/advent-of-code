@@ -32,6 +32,6 @@ Those can be found [here](./kotlin/src/main/kotlin/commons).
 | [day 20](https://adventofcode.com/2022/day/20) | |
 | [day 21](https://adventofcode.com/2022/day/21) | |
 | [day 22](https://adventofcode.com/2022/day/22) | |
-| [day 23](https://adventofcode.com/2022/day/23) | |
+| [day 23](https://adventofcode.com/2022/day/23) | [<img src="_img/kt.png" width="19"/>](./kotlin/src/main/kotlin/year2022/day23) |
 | [day 24](https://adventofcode.com/2022/day/24) | |
 | [day 25](https://adventofcode.com/2022/day/25) | |
