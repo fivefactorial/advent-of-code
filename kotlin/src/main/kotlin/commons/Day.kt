@@ -34,7 +34,9 @@ abstract class Day(val realData: Boolean) {
     open fun a(): Any = "No Sol."
     open fun b(): Any = "No Sol."
 
+    fun name() = "$year, ${day.toInt()} of december"
+
     override fun toString() =
-        "$year, ${day.toInt()} of december\nUsing ${if (realData) "real" else "practice"} data\na: ${a()}\nb: ${b()}"
+        "${name()}\nUsing ${if (realData) "real" else "practice"} data\na: ${a()}\nb: ${b()}"
 
 }
