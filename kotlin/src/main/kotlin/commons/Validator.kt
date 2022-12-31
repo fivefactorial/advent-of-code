@@ -9,6 +9,7 @@ class Validator(private val dayClass: Class<out Day>) {
         realAnswerA: Any? = null,
         realAnswerB: Any? = null
     ) {
+        println(dayClass.simpleName)
         println((dayClass.constructors.first().newInstance(false) as Day).name())
         if (type != ValidationType.REAL) run(false, practiceAnswerA, practiceAnswerB)
         if (type != ValidationType.PRACTICE) run(true, realAnswerA, realAnswerB)
